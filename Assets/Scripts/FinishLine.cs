@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class FinishLine : MonoBehaviour
 {
     [SerializeField] float reloadDelay = 2f;
-
+[SerializeField] ParticleSystem FinishEffect;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
