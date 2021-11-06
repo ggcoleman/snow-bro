@@ -223,6 +223,7 @@ GameObject:
   - component: {fileID: 268870167}
   - component: {fileID: 268870168}
   - component: {fileID: 268870169}
+  - component: {fileID: 268870170}
   m_Layer: 0
   m_Name: Shaun
   m_TagString: Player
@@ -443,6 +444,22 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!58 &268870170
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 268870159}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.99, y: 0.6}
+  serializedVersion: 2
+  m_Radius: 0.19
 --- !u!1 &363830798
 GameObject:
   m_ObjectHideFlags: 3
